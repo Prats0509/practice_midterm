@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student-List</title>
+    <title>Midterm TT4 - Simulation</title>
 </head>
 
 <body>
@@ -49,24 +49,101 @@
             <!-- Page content-->
             <div id="content" class="container-fluid p-5">
                 <h1 class="mt-4">Student List</h1>
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Code</th>
-                            <th>Name</th>
-                            <th>Course</th>
-                            <th>Date of Birth</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="studentTableBody">
-                        <!-- Dynamic content from JavaScript -->
-                    </tbody>
-                </table>
+                <div
+                    class="table-responsive"
+                >
+                    <table
+                        class="table table-primary"
+                    >
+                        <thead>
+                            <tr>
+                                <th scope="col">Code</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Course</th>
+                                <th scope ="col">Date of Birth</th>
+                                <th scope ="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S001</td>
+                                <td>Alice Johnson</td>
+                                <td>Computer Science</td>
+                                <td>2000-05-14</td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit Student">
+                                        <i class="bi bi-pencil-square"></i> Edit
+                                    </button>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Delete Student">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>S002</td>
+                                <td>Bob Smith</td>
+                                <td>Engineering</td>
+                                <td>1999-11-22</td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit Student">
+                                        <i class="bi bi-pencil-square"></i> Edit
+                                    </button>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Delete Student">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>S003</td>
+                                <td>Charlie Brown</td>
+                                <td>Mathematics</td>
+                                <td>2001-07-08</td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit Student">
+                                        <i class="bi bi-pencil-square"></i> Edit
+                                    </button>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Delete Student">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>S004</td>
+                                <td>Diana Prince</td>
+                                <td>Physics</td>
+                                <td>2002-03-30</td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit Student">
+                                        <i class="bi bi-pencil-square"></i> Edit
+                                    </button>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Delete Student">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>S005</td>
+                                <td>Ethan Hunt</td>
+                                <td>Chemistry</td>
+                                <td>1998-12-19</td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit Student">
+                                        <i class="bi bi-pencil-square"></i> Edit
+                                    </button>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Delete Student">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
             </div>
         </div>
     </div>
-    <script src = "list.bundle.js"></script>
+
+
 </body>
 
 </html>
